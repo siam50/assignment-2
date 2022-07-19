@@ -55,10 +55,13 @@ body {
 /*--- Navbar and Schedule part--- */
 .navbar-schedule {
     margin-top: 130px;
+    display: flex;
+    column-gap: 24px;
 }
 
 .navbar {
     width: 312px;
+    height: 312px;
     background-color: #161616;
     border-radius: 10px;
 }
@@ -82,4 +85,31 @@ body {
 
 #blog {
     background-color: red;
+}
+
+.schedules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.schedule-detail {
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.schedule-info {
+    padding: 20px;
+}
+
+.transfer {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.fa-comment-dots {
+    margin-left: 30px;
 }
