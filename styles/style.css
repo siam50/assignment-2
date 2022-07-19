@@ -113,3 +113,32 @@ body {
 .fa-comment-dots {
     margin-left: 30px;
 }
+
+/* ---Navbar and Schedule Style End--- */
+
+/* -------Footers Styles------ */
+.footer-part {
+    background-color: #161616;
+    text-align: center;
+    padding: 130px 140px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.more-info {
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*---- Footers Styles End---- */
