@@ -1,0 +1,48 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+/* -------Common Styles------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+/*----- banner part----- */
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0 110px;
+    column-gap: 25px;
+    border-radius: 20px;
+    background-color: #161616;
+}
+
+.banner-detail {
+    color: aliceblue;
+    margin-bottom: 90px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+
+.banner-image {
+    display: flex;
+    width: 581px;
+    height: 613px;
+
+}
+
+.button {
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color: red;
+}
