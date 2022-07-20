@@ -1,0 +1,150 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+/* -------Common Styles------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+/*----- banner part----- */
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0 110px;
+    column-gap: 25px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #161616;
+}
+
+.banner-detail {
+    color: aliceblue;
+    margin-bottom: 90px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+
+.banner-image {
+    display: flex;
+    width: 581px;
+    height: 613px;
+
+}
+
+.button {
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ----Banner Part End--- */
+
+/*--- Navbar and Schedule part--- */
+.navbar-schedule {
+    margin-top: 130px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.navbar {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.navigation {
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 30px;
+}
+
+.navigation a {
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+#match {
+    background-color: red;
+}
+
+.schedules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.schedule-detail {
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.schedule-info {
+    padding: 20px;
+}
+
+.transfer {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.fa-comment-dots {
+    margin-left: 30px;
+}
+
+.view-button {
+    margin-top: 50px;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* ---Navbar and Schedule Style End--- */
+
+/* -------Footers Styles------ */
+.footer-part {
+    background-color: #161616;
+    text-align: center;
+    padding: 130px 140px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.more-info {
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*---- Footers Styles End---- */
