@@ -3,6 +3,7 @@
 
 /* -------Common Styles------ */
 body {
+    background-color: #161616;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -20,11 +21,11 @@ body {
     column-gap: 25px;
     border-radius: 20px;
     margin-top: 50px;
-    background-color: #161616;
+    background-color: aliceblue;
 }
 
 .banner-detail {
-    color: aliceblue;
+    color: #161616;
     margin-bottom: 90px;
 }
 
@@ -58,8 +59,8 @@ body {
 
 .button {
     padding: 10px 15px;
-    color: aliceblue;
-    background-color: red;
+    color: #161616;
+    background-color: aliceblue;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -81,7 +82,7 @@ body {
 .navbar {
     width: 312px;
     height: 312px;
-    background-color: #161616;
+    background-color: aliceblue;
     border-radius: 10px;
 }
 
@@ -94,12 +95,12 @@ body {
 }
 
 .navigation a {
-    color: #161616;
+    color: aliceblue;
     text-decoration: none;
     text-align: center;
     padding: 17px 40px;
-    border-radius: 5px;
-    background-color: aliceblue;
+    border-radius: 10px;
+    background-color: #161616;
 }
 
 #match {
@@ -146,23 +147,23 @@ body {
 
 /* -------Footers Styles------ */
 .footer-part {
-    background-color: #161616;
+    background-color: aliceblue;
     text-align: center;
     padding: 130px 140px;
     margin-top: 130px;
 }
 
 .footer-title {
-    color: aliceblue;
+    color: #161616;
     font-size: 40px;
 }
 
 .more-info {
-    color: aliceblue;
+    color: #161616;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 20px 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(98, 94, 94, 0.1);
 }
 
 .social-media {
