@@ -179,3 +179,77 @@ body {
 }
 
 /*---------- For Mobile Viwes------ */
+@media only screen and (max-width: 688px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 38px;
+    }
+
+    .banner-title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .banner-detail {
+        margin-bottom: 20px;
+    }
+
+    .banner-detail p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .banner-image {
+        width: 233px;
+        height: 245px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .navbar-schedule {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        background: none;
+    }
+
+    .navigation {
+        width: 210px;
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+        padding: 16px;
+    }
+
+    .navigation a {
+        width: 174px;
+        height: 30px;
+        padding: 9px 0px;
+        border-radius: 10px;
+    }
+
+    .schedules {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-part {
+        padding: 0;
+    }
+}
