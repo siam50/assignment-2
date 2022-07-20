@@ -114,6 +114,16 @@ body {
     margin-left: 30px;
 }
 
+.view-button {
+    margin-top: 50px;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
 /* ---Navbar and Schedule Style End--- */
 
 /* -------Footers Styles------ */
@@ -167,6 +177,10 @@ body {
 
     .schedules {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-button {
+        display: block;
     }
 
     .footer-part {
