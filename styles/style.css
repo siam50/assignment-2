@@ -142,3 +142,40 @@ body {
 }
 
 /*---- Footers Styles End---- */
+
+/* ------Medea Queries ------*/
+/* ----------For Tablet Views------- */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .banner {
+        padding: 0 15px 0 70px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .navbar-schedule {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        /* padding: 0 50px; */
+    }
+
+    .navbar {
+        background: none;
+    }
+
+    .schedules {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-part {
+        margin-top: 70px;
+    }
+}
+
+/*---------- For Mobile Viwes------ */
