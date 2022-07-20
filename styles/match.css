@@ -84,6 +84,7 @@ body {
 }
 
 #match {
+    color: aliceblue;
     background-color: red;
 }
 
@@ -98,20 +99,18 @@ body {
     background: #ffffff;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    padding: 50px 30px;
+    text-align: center;
 }
 
-.schedule-info {
-    padding: 20px;
+.thumbnail {
+    display: flex;
+    column-gap: 10px;
 }
 
-.transfer {
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 3px 10px;
-}
-
-.fa-comment-dots {
-    margin-left: 30px;
+.schedule-info p {
+    font-size: 16px;
+    color: #4D4D4D;
 }
 
 .view-button {
