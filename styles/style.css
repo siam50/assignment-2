@@ -42,12 +42,31 @@ body {
 
 }
 
+/* ------Button Annimation Part -------*/
+@keyframes coloring {
+    from {
+        padding: 10px 15px;
+        background-color: red;
+    }
+
+    to {
+        padding: 20px 25px;
+        background-color: rgb(255, 119, 0);
+    }
+
+}
+
 .button {
     padding: 10px 15px;
     color: aliceblue;
     background-color: red;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.button:hover {
+    animation: coloring 1s ease-in-out 0.1s infinite alternate;
+    animation-play-state: running;
 }
 
 /* ----Banner Part End--- */
