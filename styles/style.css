@@ -209,15 +209,29 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
-        /* padding: 0 50px; */
     }
 
     .navbar {
-        background: none;
+        width: 734px;
+        height: 150px;
+        background: transparent;
+    }
+
+    .navigation {
+        width: 90%;
+        font-size: 20px;
+        flex-direction: row;
+        gap: 0 50px;
+        /* margin-left: 15px; */
+        justify-content: center;
     }
 
     .schedules {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .schedule-detail img {
+        width: 100%;
     }
 
     .view-button {
@@ -300,6 +314,10 @@ body {
 
     .schedules {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .schedule-detail img {
+        width: 100%;
     }
 
     .footer-part {
